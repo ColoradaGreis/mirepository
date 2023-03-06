@@ -1,8 +1,12 @@
 import React from 'react'
+import NavIzq from '../../components/NavIzq/NavIzq'
+import s from './Home.module.css'
 
 function Home () {
   return (
-    <div>Home</div>
+    <div className={`w-100 h-100 ${s.home}`}>
+      <NavIzq/>
+    </div>
   )
 }
 
