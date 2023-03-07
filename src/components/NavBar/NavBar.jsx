@@ -6,9 +6,9 @@ import s from './NavBar.module.css'
 
 function NavBar () {
   return (
-    <>
-    <nav className='navbar navbar-expand-lg navbar-light py-0'>
-    <div className={`${s.nav} d-flex justify-content-center align-items-center gap-5 py-4`}>
+    <div className='w-aut'>
+    <nav className=' navbar navbar-expand-lg navbar-light py-0'>
+    <div className={`${s.nav} container-fluid d-flex justify-content-center align-items-center gap-5 py-4`}>
       <Link className={s.link} to='/'>
         <h1 className={s.h1}>Home</h1>
       </Link>
@@ -25,9 +25,11 @@ function NavBar () {
 
     </div>
     </nav>
+
     <Outlet/>
-    <Footer/>
-    </>
+
+    <Footer />
+    </div>
   )
 }
 

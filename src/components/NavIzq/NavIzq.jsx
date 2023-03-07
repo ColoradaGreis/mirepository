@@ -7,7 +7,7 @@ import s from './NavIzq.module.css'
 
 function NavIzq () {
   return (
-    <div className={`${s.nav} d-flex bg-white`}>
+    <div className={`${s.nav} d-flex flex-column justify-content-between align-items-center py-5`}>
         <div>
             <img src={home} alt='home' />
         </div>

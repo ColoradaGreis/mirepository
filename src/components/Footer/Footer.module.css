@@ -1,0 +1,30 @@
+.footer{
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 100px;
+}
+.img{
+    height: 17px;
+    width: 20px;
+}
+.h1{
+    width: 51px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 143.2%;
+}
+.images{
+    width: 40px;
+    height: 40px;
+}
+.github{
+    width: 33px;
+    height: 31px;
+    margin-top: 4px;
+}
