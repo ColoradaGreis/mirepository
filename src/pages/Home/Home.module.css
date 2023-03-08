@@ -1,4 +1,23 @@
 .home{
     background-color: var(--primary-color);
     min-height: 900px;
+    min-width: max-content;
+}
+.top{
+    width: 338px;
+    height: 437px;
+}
+/* .div{
+    background-image: url(../../assets/images/Illustration_top.png);
+} */
+.bottom{
+    width: 729px;
+    margin-top: 0;
+}
+.hire{
+    background-image: url(../../assets/images/Ilustration_bottom.png);
+    background-position: 700px 250px;
+    /* background-position: end; */
+    background-repeat: no-repeat;
+    background-size: 1000px;
 }

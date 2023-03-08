@@ -6,8 +6,8 @@ import s from './NavBar.module.css'
 
 function NavBar () {
   return (
-    <div className='w-aut'>
-    <nav className=' navbar navbar-expand-lg navbar-light py-0'>
+    <div className={s.div}>
+    <nav className=' container navbar navbar-expand-lg navbar-light py-0'>
     <div className={`${s.nav} container-fluid d-flex justify-content-center align-items-center gap-5 py-4`}>
       <Link className={s.link} to='/'>
         <h1 className={s.h1}>Home</h1>
