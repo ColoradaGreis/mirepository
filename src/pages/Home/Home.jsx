@@ -12,19 +12,21 @@ function Home () {
           <div className=''>
             <NavIzq/>
           </div>
-      <div className={`row ${s.hire}`} >
-        <div className='col-12 h-max'>
+      <div className={`row align-content-start ${s.hire}`} >
+        <div className='col-12 h-25'>
           <img className={s.top} src={top} alt='top' />
         </div>
-          <div className='col-2 h-max'>
+          <div className='col-2'>
 
           </div>
-          <div className={'col-10 h-max '}>
+          <div className={'col-10'}>
             <HireMe />
           </div>
 
-          <div className={'col-12 h-max '}>
+      </div>
+      <div className='row'>
 
+          <div className={'col-12 h-max '}>
           <AboutHome/>
           </div >
       </div>
