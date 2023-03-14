@@ -1,4 +1,47 @@
 .about{
- width: 1440px;
+ width: 100%;
  height: 1024px;
+ background-image: url(../../../../assets/images/Frame\ 3524.png);
+ background-repeat: no-repeat;
+ background-position: center;
+
+}
+.title{
+    justify-content: center
+}
+.h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    padding-top: 315px;
+    padding-left: 20px;
+}
+.p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 291px;
+    margin-left: 886px;
+    margin-top: 20px;
+}
+.link{
+    text-decoration: none;
+}
+.pl{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+
 }
