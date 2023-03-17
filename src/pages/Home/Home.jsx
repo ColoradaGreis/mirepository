@@ -4,6 +4,7 @@ import AboutHome from './Components/AboutHome/AboutHome'
 import s from './Home.module.css'
 import HireMe from './Components/HireMe/HireMe'
 import top from '../../assets/images/Illustration_top.png'
+import Techskills from '../../components/TechSkills/Techskills'
 
 function Home () {
   return (
@@ -29,6 +30,9 @@ function Home () {
           <div className={'col-12 h-max '}>
           <AboutHome/>
           </div >
+      </div>
+      <div>
+        <Techskills/>
       </div>
       </div>
     </div>

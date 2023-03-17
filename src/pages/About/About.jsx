@@ -2,7 +2,9 @@ import React from 'react'
 
 function About () {
   return (
-    <div className='d-flex justify-content-end '>About</div>
+    <div className='d-flex justify-content-end '>
+
+    </div>
   )
 }
 
