@@ -4,10 +4,12 @@ import { skills } from '../../assets/utilities/Skills'
 
 function Techskills () {
   return (
-    <div>
+    <div className={s.box}>
         <div>
             <h1>My Tech Skills:</h1>
         </div>
+        <div className='d-flex flex-norap justify-content-center'>
+
         {
             skills.map((skill) => {
               return (
@@ -16,6 +18,7 @@ function Techskills () {
               )
             })
         }
+        </div>
     </div>
   )
 }

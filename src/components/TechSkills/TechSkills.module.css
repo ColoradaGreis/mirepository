@@ -1,3 +1,13 @@
 .img{
     width: 50px;
 }
+.box{
+      width: 100%;
+  background-color: #ffffff73;
+  border-radius: 10px;
+  opacity: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10.054px);
+}
