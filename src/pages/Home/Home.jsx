@@ -5,6 +5,7 @@ import s from './Home.module.css'
 import HireMe from './Components/HireMe/HireMe'
 import top from '../../assets/images/Illustration_top.png'
 import Techskills from '../../components/TechSkills/Techskills'
+import Projects from '../../components/Projects/Projects'
 
 function Home () {
   return (
@@ -33,6 +34,9 @@ function Home () {
       </div>
       <div className='d-flex justify-content-center'>
         <Techskills/>
+      </div>
+      <div>
+        <Projects/>
       </div>
       </div>
     </div>
