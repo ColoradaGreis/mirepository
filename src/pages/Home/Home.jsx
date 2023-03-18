@@ -31,7 +31,7 @@ function Home () {
           <AboutHome/>
           </div >
       </div>
-      <div>
+      <div className='d-flex justify-content-center'>
         <Techskills/>
       </div>
       </div>

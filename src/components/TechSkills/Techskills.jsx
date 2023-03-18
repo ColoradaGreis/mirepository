@@ -5,16 +5,17 @@ import { skills } from '../../assets/utilities/Skills'
 function Techskills () {
   return (
     <div className={s.box}>
-        <div>
-            <h1>My Tech Skills:</h1>
+        <div className='d-flex justify-content-center w-100'>
+            <h1 className='fs-2 mt-5'>Skills</h1>
         </div>
-        <div className='d-flex flex-norap justify-content-center'>
+        <div className='d-flex flex-wrap justify-content-center align-items-center w-100'>
 
         {
             skills.map((skill) => {
               return (
-
-                    <img className={`m-3 ${s.img}`} src={skill.img} alt={skill.name} key={skill.name} />
+                    <div key={skill.name}>
+                    <img className={`m-3 ${s.Techskillsimg}`} src={skill.img} alt={skill.name} key={skill.name} />
+                    </div>
               )
             })
         }

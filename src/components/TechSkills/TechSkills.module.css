@@ -1,13 +1,54 @@
-.img{
+.Techskillsimg{
     width: 50px;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+
+
 }
 .box{
-      width: 100%;
-  background-color: #ffffff73;
-  border-radius: 10px;
-  opacity: 85%;
-  display: flex;
+      width: 400px;
+      height: 400px;
+  background-color: #2f2f8a93;
+  border-radius: 20px;
+  opacity: 75%;
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(10.054px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  border: 1.53px solid;
+  border-color: #020202a9;
+  
+
+  
 }
+/* Agrega esta regla para aplicar la transformación cuando el mouse pase sobre la imagen */
+.Techskillsimg:hover {
+    transform: scale(1.2);
+    background-color: rgba(250, 250, 250, 0.822);
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 2px 4px 20px 4px rgb(248, 248, 248);
+    border: none;
+
+}
+  
+  /* Agrega esta regla para mostrar el nombre de la habilidad después de la imagen */
+  .Techskills-img::after {
+    content: attr(alt);
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+  }
+  
+  
+  /* Para asegurarte de que la animación se detenga cuando se deja de pasar el mouse sobre la imagen */
+  .Techskillsimg:active {
+    transform: scale(1);
+    opacity: 0.75;
+  }
