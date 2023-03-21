@@ -21,7 +21,7 @@ function Projects () {
     <div>
 
     <div>
-      <h1>Projects</h1>
+      <h1>My recent work</h1>
     </div>
     <div>
 
