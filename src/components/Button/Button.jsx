@@ -32,6 +32,24 @@ function Button (props) {
       </button>
     )
   }
+  if (type === 'link') {
+    return (
+      <a className='text-decoration-none' href={link} target='_blank' rel='noreferrer'>
+  <button className={`btn btn-primary ${s.hire}`}>
+    {text}
+  </button>
+  </a>
+    )
+  }
+  if (type === 'link2') {
+    return (
+      <a className='text-decoration-none' href={link} target='_blank' rel='noreferrer'>
+  <button className={`${s.cv}`}>
+    {text}
+  </button>
+  </a>
+    )
+  }
 }
 Button.propTypes = {
   text: PropTypes.string.isRequired,
