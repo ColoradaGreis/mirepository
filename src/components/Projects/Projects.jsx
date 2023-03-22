@@ -20,12 +20,12 @@ function Projects () {
     github: 'https://github.com/ColoradaGreis/PI-Videogames'
   }]
   return (
-    <div>
+    <div className='flex-column'>
 
-    <div>
+    <div className='d-flex justify-content-center m-5'>
       <h1 className={s.title}>My recent work</h1>
     </div>
-    <div className='gap-5'>
+    <div className='gap-5 d-flex flex-nowrap justify-content-center'>
 
     {
       Project.map((project) => {
@@ -34,7 +34,7 @@ function Projects () {
           <img src={project.img} className={`card-img-top ${s.img}`} alt={project.name}/>
           <div className="card-body">
             <h5 className="card-title">{project.name}</h5>
-            <div className='d-flex flex-nowrap'>
+            <div className='d-flex flex-nowrap gap-2'>
             <Button type='link' text='View' link={project.url} target='_blank' rel='noreferrer'/>
             <Button type='link2' text='Info' link={project.github} target='_blank' rel='noreferrer'/>
             </div>
