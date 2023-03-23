@@ -22,3 +22,13 @@
     background-size: 1000px;
     min-height: 1200px;
 }
+.back{
+    background-image: url(../../assets/images/Background.png);
+    background-repeat: no-repeat;
+    background-size: 1900px;
+    min-height: 1200px;
+
+   background-position: 6px;
+   justify-content: center;
+   padding-top: 50px;
+}
