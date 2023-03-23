@@ -32,3 +32,12 @@
    justify-content: center;
    padding-top: 50px;
 }
+.navIzq{
+    position: fixed;
+}
+.tech{
+    background-image: url(../../assets/images/BGSmallCircle2.png);
+    background-repeat: no-repeat;
+    background-position: 475px;
+    min-height: 500px;
+}

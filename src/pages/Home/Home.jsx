@@ -12,7 +12,7 @@ function Home () {
   return (
     <div >
       <div className={` ${s.home} m-0`}>
-          <div className=''>
+          <div className={s.navIzq}>
             <NavIzq/>
           </div>
       <div className={`row align-content-start ${s.hire}`} >
@@ -33,7 +33,7 @@ function Home () {
             <AboutHome/>
             </div >
         </div>
-        <div className='d-flex justify-content-center'>
+        <div className={`${s.tech} d-flex justify-content-center`}>
           <Techskills/>
         </div>
         <div className={s.back}>
