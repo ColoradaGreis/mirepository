@@ -1,0 +1,18 @@
+.box{
+    width: 900px;
+    height: 600px;
+    background-color: #2f2f8a93;
+    border-radius: 20px;
+    opacity: 75%;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10.054px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border: 1.53px solid;
+    border-color: #020202a9;
+    color: white;
+    
+    
+    
+    
+}

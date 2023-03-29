@@ -14,13 +14,13 @@ function Contact () {
     resetForm()
   }
   return (
-    <div>
-      <div>
+    <div className={`container d-flex flex-wrap ${s.box}`}>
+      <div className='col'>
         <h5>Get in touch</h5>
         <p>I’m very approachable and would love to speak to you. Feel free to call, send me an email . Follow me in social media or simply complete the enquiry form.</p>
 
       </div>
-      <div>
+      <div className='col'>
         <h5>Send a message</h5>
         <Formik
         initialValues={initialValues}
