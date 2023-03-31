@@ -27,7 +27,7 @@ function Button (props) {
   }
   if (type === 'submit') {
     return (
-      <button className='btn btn-primary' type='submit'>
+      <button className={` ${s.cv}`} type='submit'>
         {text}
       </button>
     )

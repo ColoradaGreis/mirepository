@@ -1,9 +1,20 @@
+.divSupremo{
+    position: relative;
+}
+.img{
+    position: absolute;
+    bottom: 0;
+    right: 1072px;
+    top: -598px;
+    z-index: 1;
+
+}
 .box{
     width: 900px;
-    height: 600px;
+    height: 500px;
     background-color: #2f2f8a93;
     border-radius: 20px;
-    opacity: 75%;
+    /* opacity: 75%; */
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(10.054px);
@@ -11,8 +22,58 @@
     border: 1.53px solid;
     border-color: #020202a9;
     color: white;
-    
-    
-    
-    
+    padding: 70px;
+    gap: 110px;
+
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.input{
+    background-color: rgb(126, 126, 126);
+    opacity: 50%;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+
+.input::placeholder{
+    color: #fff;
+    /* opacity: 50%; */
+}
+.btn{
+    color: var(--senary-color);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(107.21deg, #C961DE 24.43%, #2954A3 68.95%);
+    box-shadow: 0px 10px 20px rgba(8, 12, 33, 0.15);
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #2954A3;
+    transition: background-color 0.5s ease, transform 0.2s ease;
+}
+.inputMessage{
+    background-color: rgb(126, 126, 126);
+    opacity: 50%;
+    border-radius: 15px;
+    border: none;
+
+
+}
+.inputMessage::placeholder{
+    color: #fff;
+    text-align: start;
+
+
 }

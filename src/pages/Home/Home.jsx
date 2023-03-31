@@ -4,7 +4,7 @@ import AboutHome from './Components/AboutHome/AboutHome'
 import s from './Home.module.css'
 import HireMe from './Components/HireMe/HireMe'
 import top from '../../assets/images/Illustration_top.png'
-import Techskills from '../../components/TechSkills/Techskills'
+// import Techskills from '../../components/TechSkills/Techskills'
 import Projects from '../../components/Projects/Projects'
 import Contact from '../../components/Contact/Contact'
 
@@ -33,13 +33,13 @@ function Home () {
             <AboutHome/>
             </div >
         </div>
-        <div className={`${s.tech} d-flex justify-content-center`}>
+        {/* <div className={`${s.tech} d-flex justify-content-center`}>
           <Techskills/>
-        </div>
+        </div> */}
         <div className={s.back}>
           <Projects/>
         </div>
-        <div>
+        <div className='m-5'>
           <Contact/>
         </div>
       </div>
