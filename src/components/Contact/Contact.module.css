@@ -1,11 +1,16 @@
 .divSupremo{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
 }
 .img{
     position: absolute;
     bottom: 0;
-    right: 1072px;
-    top: -598px;
+    right: 1079px;
+    top: -256px;
     z-index: 1;
 
 }

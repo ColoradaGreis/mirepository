@@ -1,5 +1,5 @@
 import React from 'react'
-import NavIzq from '../../components/NavIzq/NavIzq'
+// import NavIzq from '../../components/NavIzq/NavIzq'
 import AboutHome from './Components/AboutHome/AboutHome'
 import s from './Home.module.css'
 import HireMe from './Components/HireMe/HireMe'
@@ -12,9 +12,9 @@ function Home () {
   return (
     <div >
       <div className={` ${s.home} m-0`}>
-          <div className={s.navIzq}>
+          {/* <div className={s.navIzq}>
             <NavIzq/>
-          </div>
+          </div> */}
       <div className={`row align-content-start ${s.hire}`} >
         <div className='col-12 h-25'>
           <img className={s.top} src={top} alt='top' />
