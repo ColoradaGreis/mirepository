@@ -45,4 +45,20 @@ export const skills = [{
 {
   name: 'Github',
   img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
+},
+{
+  name: 'WordPress',
+  img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg'
+},
+{
+  name: 'npm',
+  img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg'
+},
+{
+  name: 'Trello',
+  img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg'
+},
+{
+  name: 'VisualStudio',
+  img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg'
 }]
