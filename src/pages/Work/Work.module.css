@@ -1,0 +1,12 @@
+.group11{
+    width: 500px;
+    height: 582px;
+}
+.back{
+    background-image: url(../../assets/images/Group11.png);
+    background-position: 1278px 268px;
+    /* background-position: end; */
+    background-repeat: no-repeat;
+    background-size: 610px;
+    min-height: 880px;
+}

@@ -16,10 +16,10 @@ function About () {
         <div className='d-flex justify-content-center'><h1 className={s.title}>Learning</h1></div>
         <div className='flex-column justify-content-center align-items-center p-4'>
           <div className='d-flex justify-content-center align-items-center m-0'>
-        <img className={`m-3 ${s.img}`} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+        <img className={`m-3 ${s.img}`} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
           </div>
         <div className='d-flex justify-content-center align-items-center m-0'>
-        <p className={s.text}>TypeScript</p>
+        <p className={s.text}>docker</p>
         </div>
         </div>
       </div>
